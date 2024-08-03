@@ -35,7 +35,7 @@ async function bootstrap() {
   // Cors
   if (corsConfig?.enabled) {
     app.enableCors({
-      origin: [corsConfig.origin || 'https://localhost:3000'],
+      origin: [corsConfig.origin || 'https://localhost:3001'],
       methods: corsConfig.methods,
       allowedHeaders: [corsConfig.allowedHeaders],
     })
