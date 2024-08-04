@@ -29,7 +29,7 @@ const config: Config = {
     path: 'api',
   },
   security: {
-    expiresIn: '2m',
+    expiresIn: '30d',
     refreshIn: '7d',
     bcryptSaltOrRound: 10,
     jwt_secret: process.env.JWT_SECRET,
